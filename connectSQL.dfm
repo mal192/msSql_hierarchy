@@ -1,0 +1,154 @@
+object connectServerForm: TconnectServerForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsToolWindow
+  Caption = 'connectServerForm'
+  ClientHeight = 359
+  ClientWidth = 292
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ServerNameEdit: TLabeledEdit
+    Left = 24
+    Top = 32
+    Width = 233
+    Height = 27
+    EditLabel.Width = 91
+    EditLabel.Height = 19
+    EditLabel.Caption = #1048#1084#1103' '#1089#1077#1088#1074#1077#1088#1072
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -16
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'N\SQLEXPRESS'
+  end
+  object UserNameEdit: TLabeledEdit
+    Left = 24
+    Top = 120
+    Width = 233
+    Height = 27
+    EditLabel.Width = 134
+    EditLabel.Height = 19
+    EditLabel.Caption = #1048#1084#1103' '#1087#1086#1083#1100#1079#1086#1074#1072#1090#1077#1083#1103
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -16
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = 'adm'
+  end
+  object PassEdit: TLabeledEdit
+    Left = 24
+    Top = 176
+    Width = 233
+    Height = 27
+    EditLabel.Width = 54
+    EditLabel.Height = 19
+    EditLabel.Caption = #1055#1072#1088#1086#1083#1100
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -16
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Text = '123'
+  end
+  object AutNTCheck: TCheckBox
+    Left = 24
+    Top = 72
+    Width = 225
+    Height = 17
+    Caption = #1055#1088#1086#1074#1077#1088#1082#1072' '#1087#1086#1076#1083#1080#1085#1086#1089#1090#1080' Windows NT'
+    Checked = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Style = []
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 3
+  end
+  object ConnectDB: TButton
+    Left = 80
+    Top = 304
+    Width = 121
+    Height = 33
+    Caption = #1054#1090#1082#1088#1099#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = ConnectDBClick
+  end
+  object addDB: TCheckBox
+    Left = 24
+    Top = 217
+    Width = 145
+    Height = 17
+    Caption = #1057#1086#1079#1076#1072#1090#1100' '#1085#1072#1074#1091#1102' '#1073#1072#1079#1091' '
+    Checked = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+    OnClick = addDBClick
+  end
+  object ListDBName: TComboBox
+    Left = 24
+    Top = 248
+    Width = 233
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Text = 'ListDBName'
+    Visible = False
+  end
+  object ADOQuery: TADOQuery
+    Parameters = <>
+    Left = 24
+    Top = 288
+  end
+end

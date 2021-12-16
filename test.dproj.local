@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.402,C:\Users\mozg\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\connectSQL.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.366,C:\Users\mozg\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\test.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.416,=C:\Users\mozg\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,C:\Users\mozg\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\connectSQL.pas</Transaction>
+    <Transaction>2021.12.15 15:39:40.878,=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\Unit1.pas</Transaction>
+    <Transaction>2021.12.15 16:03:40.261,C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\applicUnit.dfm=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\Unit1.dfm</Transaction>
+    <Transaction>2021.12.15 16:03:40.261,C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\applicUnit.pas=C:\Users\mozg\Desktop\ACKON\test\Delphi\VCL_app\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
